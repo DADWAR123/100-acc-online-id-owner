@@ -1948,13 +1948,13 @@ jano99.on("message", message => {
 
 jano100.on("message", message => {
   if (!message.guild) return;
-  if (message.content === prefix + "wara") {
-    if (!dinfo.owner.includes(message.author.id)) return;
-    if (message.member.voiceChannel) {
+  if (message.content === prefix + "wara Voice") {
+    if (!dinfo.owner.includes(message.author.id)) return;9015
+    if (message.member.voiceChannel) {894684986828009512
       message.member.voiceChannel
         .join()
         .then(connection => {
-          message.reply("**basha qashmar**");
+          message.reply("**basha Basar Chaw**");
         })
         .catch(console.log);
     } else {
@@ -3969,4 +3969,4 @@ jano96.login("");
 jano97.login("");
 jano98.login("");
 jano99.login("");
-jano100.login("");
+jano100.login("ODk1NjUzMjUxNzA4NDk3OTgy.YV7s3w.Iuhw5IuxLYGDb7F-QFjyoeKjgx4");
